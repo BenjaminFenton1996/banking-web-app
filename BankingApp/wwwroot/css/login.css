@@ -1,0 +1,38 @@
+﻿/* Login Menu
+-------------------------------------------------- */
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+    max-width: 500px;
+    width: 25%;
+}
+
+.login-form-container {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #f2f2f2;
+    padding: 25px;
+}
+
+    .login-form h1, h2, h3, h4 {
+        text-align: center;
+    }
+
+/*Responsive UI*/
+@media only screen and (max-width: 1850px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,37 @@
+﻿/* Home Menu
+-------------------------------------------------- */
+.bank-account-container {
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 500px;
+    padding: 10px;
+}
+
+    .bank-account-container h4 {
+        letter-spacing: 2px;
+    }
+
+.bank-account-top {
+    background-color: #6378a6;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bank-account-bottom {
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.form-container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f2f2f2;
+    padding: 15px;
+}
