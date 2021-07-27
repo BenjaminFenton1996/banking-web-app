@@ -22,7 +22,7 @@ namespace BankingApp.Utilities
         public static string EncryptString(string plainText)
         {
             if (string.IsNullOrEmpty(plainText))
-                throw new ArgumentNullException("Value to be encrypted is null or empty");
+                return "";
 
             using (Aes aes = Aes.Create())
             {
@@ -56,7 +56,7 @@ namespace BankingApp.Utilities
         public static string DecryptString(string cipherTextString)
         {
             if (string.IsNullOrEmpty(cipherTextString))
-                throw new ArgumentNullException("Value to be decrypted is null or empty");
+                return "";
 
             byte[] cipherText = Convert.FromBase64String(cipherTextString);
             using (Aes aes = Aes.Create())
